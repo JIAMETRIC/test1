@@ -1,0 +1,52 @@
+/* :::Default code Starts Here::: */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+
+
+:root {
+    --primary-color: #2e2bd3;
+    --secondary-color: #2ba3d3;
+    --third-color: #b1d32b;
+    --sub-heading-font: 24px;
+    --main-font-size: 18px;
+    --main-font-family: 'Open Sans', sans-serif;
+    --second-font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+/* :::Default code Ends Here::: */
+
+
+
+/* :::Project code::: */
+
+.grid div{
+    border: 3px solid rgb(227, 39, 80);
+    border-radius: 4px;
+    background-color: #4ec4f2;
+    padding: 1em 2em; 
+    height: 100px; 
+    text-align: center; 
+    font-size: var(--sub-heading-font); 
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
